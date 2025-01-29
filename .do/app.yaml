@@ -1,8 +1,14 @@
 name: sample-nodejs
 services:
+  - environment_slug: node-js
+    github:
+      branch: main
+      deploy_on_push: true
+      repo: tellmeY18/sample-nodejs
+  name: sample-nodejs
 - environment_slug: node-js
   github:
     branch: main
     deploy_on_push: true
-    repo: digitalocean/sample-nodejs
-  name: sample-nodejs
+    repo: tellmeY18/sample-nuxtjs
+  name: sample-nuxtjs
