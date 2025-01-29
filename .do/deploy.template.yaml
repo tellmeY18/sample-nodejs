@@ -1,8 +1,8 @@
 spec:
-  name: sample-nodejs
+  name: test-spec
   services:
   - environment_slug: node-js
     git:
       branch: main
       repo_clone_url: https://github.com/digitalocean/sample-nodejs.git
-    name: sample-nodejs
+    name: name-change
