@@ -5,7 +5,7 @@ services:
       branch: main
       deploy_on_push: true
       repo: tellmeY18/sample-nodejs
-  name: sample-nodejs
+  name: sample-exampl
 - environment_slug: node-js
   github:
     branch: main
